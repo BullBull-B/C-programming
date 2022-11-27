@@ -10,7 +10,6 @@ int main(){
 	printf("\n\t 2. METER => KILOMETER");
 	printf("\n\n Choose the operation [1/2] : ");
 	scanf("%d", &option);
-	if (option ==1 || option ==2) {
 		if (option == 1) {
 			printf("\n Enter the units in CENTIMETER [cm] : ");
 			scanf("%d", &centimeters);
@@ -22,7 +21,7 @@ int main(){
 			kilometers = meters/1000;
 			printf("\n %d m = %d km", meters, kilometers);
 		}
-	}else {
+	else {
 		printf("\n Invalid Input!! No operation defined on option \"%d\".", option);
 	}
 	return 0;
