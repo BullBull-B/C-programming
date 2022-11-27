@@ -6,9 +6,9 @@
 int main(){
 	printf("\n ======================= SUBTRACT TO MAKE THE NUMBER DIVISIBLE ====================== \n"); 
 	int dividend, divisor, remainder;
-	printf("\n Enter the DIVIDEND [Y] : ");
+	printf("\n Enter the DIVIDEND [X] : ");
 	scanf("%d", &dividend);
-	printf("\n Enter the DIVISOR [X] : ");
+	printf("\n Enter the DIVISOR [Y] : ");
 	scanf("%d", &divisor);
 	remainder = dividend % divisor;
 	if (remainder==0) {
