@@ -18,10 +18,6 @@ int main(){
 	days = days - (months*30);
 	weeks = days/7;
 	days = days - (weeks*7);
-	printf("\n %d [Days] = %d / %d / %d / %d	i.e.", userDefinedDays, years, months, weeks, days);
-	printf("\n\t YEARS  = %d", years);
-	printf("\n\t MONTHS = %d", months);
-	printf("\n\t WEEKS  = %d", weeks);
-	printf("\n\t DAYS   = %d", days);
+	printf("\n Y / M / W / D = %d / %d / %d / %d\n\n", years, months, weeks, days);
 	return 0;
 }
