@@ -5,7 +5,7 @@
 
 int main(){
 	printf("\n ======================= SUBTRACT TO MAKE THE NUMBER DIVISIBLE ====================== \n"); 
-	int dividend, divisor, remainder, numberToBeSubstracted;
+	int dividend, divisor, remainder;
 	printf("\n Enter the DIVIDEND [Y] : ");
 	scanf("%d", &dividend);
 	printf("\n Enter the DIVISOR [X] : ");
