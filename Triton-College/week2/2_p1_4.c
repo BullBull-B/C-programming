@@ -6,9 +6,9 @@
 int main(){
 	int dividend, divisor, remainder, numberToBeAdded;
 	printf("\n ======================= MAKE THE NUMBER DIVISIBLE BY ADDING LEAST NUMBER ====================== \n"); 
-	printf("\n Enter the DIVIDEND [Y] : "); 
+	printf("\n Enter the DIVIDEND [X] : "); 
 	scanf("%d", &dividend);
-	printf("\n Enter the DIVISOR [X] : "); 
+	printf("\n Enter the DIVISOR [Y] : "); 
 	scanf("%d", &divisor);
 	remainder = dividend % divisor;
 	if (remainder == 0) {
