@@ -10,10 +10,4 @@
 
 ---
 
-<div style="width:60px;height:60px">
-
-![C-programming](./Learnings/C-programs/img/c-programming_icon.jpg)
-
-</div>
-
 ![C](https://img.shields.io/badge/c-%2300599C.svg?style=for-the-badge&logo=c&logoColor=white)
